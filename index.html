@@ -4,19 +4,22 @@
         <title>Blog-Design</title>
         <meta content="Rules of Autocomplete" name="description">
         <meta content="blog, autocomplete" name="keywords">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
         <div class="blog-container">
             <header>
-                <h3>Jeremy's Blog</h3>
-                <nav>
-                    <a href="./index.html">HOME</a>
-                    <a href="./about.html">ABOUT</a>
-                    <a href="./archive.html">ARCHIVE</a>
+                <div class="logo">Jeremy's Blog</div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./archive.html">ARCHIVE</a></li>
+                        <li><a href="./contactus.html">CONTACT US</a></li>
+                    </ul>
                 </nav>
             </header>
-            <div class="blog-post">
+            <main class="blog-post">
                 <h1>Rules for Autocomplete</h1>
                 <h4>Posted on March 19, 2019</h4>
                 <p>Autocompleting text with known values seems like an easy problem to solve, but
@@ -51,7 +54,7 @@
                         arrow). The user should never have to take extra steps to <i>not</i> use
                         autocomplete.</li>
                 </ul>
-            </div>
+            </main>
             <footer>Jeremy's Blog 2020</footer>
         </div>
     </body>
